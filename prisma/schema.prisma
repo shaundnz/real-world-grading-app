@@ -56,7 +56,7 @@ model Test {
 
 model TestResult {
     id Int @id @default(autoincrement())
-    createdAt DateTime @default(now())
+    createdAt DateTime? @default(now())
     result Int
     testId Int
     test Test @relation(fields: [testId], references: [id])
