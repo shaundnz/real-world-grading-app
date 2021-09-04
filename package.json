@@ -6,15 +6,15 @@
     "@hapi/boom": "^9.1.0",
     "@hapi/hapi": "^19.2.0",
     "@hapi/joi": "^17.1.1",
-    "@prisma/client": "2.30.3",
-    "date-fns": "^2.15.0",
-    "prisma": "^2.30.3"
+    "@prisma/client": "2.3.0",
+    "date-fns": "^2.15.0"
   },
   "devDependencies": {
     "@types/hapi__hapi": "^19.0.4",
     "@types/hapi__joi": "^17.1.4",
     "@types/jest": "^26.0.9",
     "jest": "^26.3.0",
+    "prisma": "^2.30.2",
     "ts-jest": "^26.2.0",
     "ts-node": "8.10.2",
     "ts-node-dev": "^1.0.0-pre.52",
